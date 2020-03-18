@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/bil1"
+        android:layout_width="286dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="-70dp"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <EditText
+        android:id="@+id/bil2"
+        android:layout_width="286dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="52dp"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+
+
+    <Button
+        android:id="@+id/jumlahkan"
+        android:layout_width="124dp"
+        android:layout_height="40dp"
+        android:text="Jumlahkan"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <Button
+        android:id="@+id/pengurangan"
+        android:layout_width="129dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="Pengurangan"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+
+    <Button
+        android:id="@+id/perkalian"
+        android:layout_width="124dp"
+        android:layout_height="40dp"
+        android:text="Perkalian"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <Button
+        android:id="@+id/pembagian"
+        android:layout_width="124dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="Pembagian"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="310dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Hello World!"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.599" />
+
+
+
+
+
+</LinearLayout>
